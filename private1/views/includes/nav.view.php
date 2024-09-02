@@ -105,7 +105,11 @@
         </li>
       </ul>
 
+<<<<<<< HEAD:private1/views/includes/nav.view.php
      <?php if(Auth::access('teacher')):?>
+=======
+     <?php if(Auth::access('lecturer')):?>
+>>>>>>> 1b565d9c638e84ae438ff6db4f65c8ac3ed5a467:private/views/includes/nav.view.php
       <form class="container-inline">
           <div class="input-group">
 

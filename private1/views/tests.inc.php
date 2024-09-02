@@ -15,7 +15,11 @@
         <?php foreach($test_rows as $test_row):?>
 
             <tr style="<?=(in_array($test_row->test_id, $unsubmitted))? 'background-color:#e39999': ''?>">  
+<<<<<<< HEAD:private1/views/tests.inc.php
             <?php if(Auth::access('teacher')):?>  
+=======
+            <?php if(Auth::access('lecturer')):?>  
+>>>>>>> 1b565d9c638e84ae438ff6db4f65c8ac3ed5a467:private/views/tests.inc.php
             <td>
             
                 <a href="<?=ROOT?>/single_test/<?=$test_row->test_id?>">
